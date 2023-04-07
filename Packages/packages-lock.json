@@ -155,7 +155,7 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.your-name.packagename": {
+    "de.ra-coding.editor.utils": {
       "version": "file:TemplatePackage",
       "depth": 0,
       "source": "embedded",

@@ -1,20 +1,20 @@
 {
-  "name": "com.your-name.packagename",
+  "name": "de.ra-coding.editor.utils",
   "version": "1.0.0",
-  "displayName": "Your Package Name",
-  "description": "This is an example package",
+  "displayName": "Editor Utils",
+  "description": "This package includes various editor utils.",
   "unity": "2019.1",
   "unityRelease": "0b5",
-  "documentationUrl": "https://example.com/",
-  "changelogUrl": "https://example.com/changelog.html",
-  "licensesUrl": "https://example.com/licensing.html",
+  "documentationUrl": "https://github.com/Ra-Coding/unity-editor-utils",
+  "changelogUrl": "https://github.com/Ra-Coding/unity-editor-utils",
+  "licensesUrl": "https://github.com/Ra-Coding/unity-editor-utils/blob/main/LICENSE",
   "keywords": [
-    "keyword1",
-    "keyword2",
-    "keyword3"
+    "editor",
+    "utils",
+    "attributes"
   ],
   "author": {
-    "name": "Your Name or Company Name",
-    "url": "https://example.com"
+    "name": "Ra-Coding",
+    "url": "https://github.com/Ra-Coding"
   }
 }
