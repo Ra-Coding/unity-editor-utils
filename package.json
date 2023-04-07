@@ -1,0 +1,20 @@
+{
+  "name": "de.ra-coding.editor.utils",
+  "version": "1.0.0",
+  "displayName": "Editor Utils",
+  "description": "This package includes various editor utils.",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+  "documentationUrl": "https://github.com/Ra-Coding/unity-editor-utils",
+  "changelogUrl": "https://github.com/Ra-Coding/unity-editor-utils",
+  "licensesUrl": "https://github.com/Ra-Coding/unity-editor-utils/blob/main/LICENSE",
+  "keywords": [
+    "editor",
+    "utils",
+    "attributes"
+  ],
+  "author": {
+    "name": "Ra-Coding",
+    "url": "https://github.com/Ra-Coding"
+  }
+}
