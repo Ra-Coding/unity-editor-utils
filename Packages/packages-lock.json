@@ -156,7 +156,7 @@
       "url": "https://packages.unity.com"
     },
     "de.ra-coding.editor.utils": {
-      "version": "file:TemplatePackage",
+      "version": "file:EditorUtils",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}

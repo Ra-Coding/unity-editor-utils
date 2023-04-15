@@ -311,7 +311,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1743018990}
   m_Layer: 0
-  m_Name: --- Header Title
+  m_Name: '[HEADER] Header Title'
   m_TagString: EditorOnly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
