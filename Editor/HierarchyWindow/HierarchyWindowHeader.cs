@@ -7,7 +7,7 @@ namespace RaCoding.EditorUtils
     public static class HierarchyWindowHeader
     {
         // used to identify HierarchyWindowHeader
-        public const string GameObjectNameSuffix = "---";
+        public const string GameObjectNameSuffix = "[HEADER]";
 
         static HierarchyWindowHeader()
         {
@@ -18,10 +18,10 @@ namespace RaCoding.EditorUtils
         {
             GameObject gameObject = EditorUtility.InstanceIDToObject(instanceID) as GameObject;
 
-            if (gameObject != null && gameObject.name.StartsWith("---", System.StringComparison.Ordinal))
+            if (gameObject != null && gameObject.name.StartsWith("[HEADER]", System.StringComparison.Ordinal))
             {
                 EditorGUI.DrawRect(selectionRect, Color.gray);
-                EditorGUI.DropShadowLabel(selectionRect, gameObject.name.Replace("-", "").ToUpperInvariant());
+                EditorGUI.DropShadowLabel(selectionRect, gameObject.name.Replace("[HEADER]", "").ToUpperInvariant());
             }
         }
     }
